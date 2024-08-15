@@ -1,0 +1,161 @@
+program 1:
+void main() {
+  int x = 10;
+  if (x % 2 == 0) {
+    print("$x is an even number");
+  } else {
+    print("$x is an odd number");
+  }
+}
+
+
+program 2:
+void main() {
+  var x = 5;
+  if (x < 10) {
+    print("$x is less than 10");
+  } else if (x > 10) {
+    print("$x is grater than 10");
+  } else {
+    print("given number $x is equal to 10");
+  }
+}
+
+
+program 3:
+void main() {
+  var age = 18;
+  if (age >= 18) {
+    print("user of age $age can cast a vote");
+  } else {
+    print("user of age $age can not cast a vote");
+  }
+}
+
+
+program 4:
+void main() {
+  var x = 5;
+  if (x > 0) {
+    print("$x is a positive number");
+  } else if (x < 0) {
+    print("$x is negative number");
+  } else {
+    print("given number is 0");
+  }
+}
+
+
+program 5:
+void main() {
+  var c = "i";
+  if (c == 'A' ||
+      c == 'E' ||
+      c == 'I' ||
+      c == 'O' ||
+      c == 'U' ||
+      c == 'a' ||
+      c == 'e' ||
+      c == 'i' ||
+      c == 'o' ||
+      c == 'u') {
+    print("$c is a vowel");
+  } else {
+    print("$c is a consonent");
+  }
+}
+
+
+program 6:
+void main() {
+  int x = 1;
+  if (x == 0) {
+    print("zero");
+  } else if (x == 1) {
+    print("one");
+  } else if (x == 2) {
+    print("two");
+  } else if (x == 3) {
+    print("three");
+  } else if (x == 4) {
+    print("four");
+  } else if (x == 5) {
+    print("five");
+  } else {
+    print("$x is greater than 5");
+  }
+}
+
+
+program 7:
+void main() {
+  var month = 7;
+
+  if (month == 1 ||
+      month == 3 ||
+      month == 5 ||
+      month == 7 ||
+      month == 9 ||
+      month == 11) {
+    print("month $month have 31 days");
+  } else if (month == 2) {
+    print("month $month have 28 days");
+  } else if (month == 4 ||
+      month == 6 ||
+      month == 8 ||
+      month == 10 ||
+      month == 12) {
+    print("month $month have 30 days");
+  }
+}
+
+
+program 8:
+void main() {
+  num x = 22;
+  if (x % 3 == 0 && x % 5 == 0) {
+    print("$x will be divisible by both 3 & 5");
+  } else if (x % 3 == 0) {
+    print("$x will be divisible by only 3");
+  } else if (x % 5 == 0) {
+    print("$x will be divisible by only 5");
+  } else {
+    print("$x not divisible by 3 or 5");
+  }
+}
+
+
+program 9:
+void main() {
+  num x = 3;
+  if (x == 1) {
+    print("please pay 2000 rupees only");
+  } else if (x == 2) {
+    print("please pay 3000 rupees only");
+  } else if (x == 3) {
+    print("please pay 7000 rupees only");
+  } else {
+    print("please pay 2500 rupees only");
+  }
+}
+
+
+program 10:
+void main() {
+  dynamic unit = 249;
+  dynamic bill = 0;
+
+  if (unit < 90) {
+    bill = 90 * 0;
+    print(bill);
+  } else if (unit >= 90 && unit < 180) {
+    bill = (unit - 90) * 6;
+    print(bill);
+  } else if (unit >= 180 && unit < 250) {
+    bill = (90 * 6) + (unit - 180) * 10;
+    print(bill);
+  } else if (unit >= 250) {
+    bill = (90 * 6) + (70 * 10) + (unit - 250) * 15;
+    print(bill);
+  }
+}
