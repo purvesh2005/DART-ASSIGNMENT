@@ -1,0 +1,89 @@
+program 1:
+
+void main() {
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+  }
+}
+
+program 2:
+
+void main() {
+  for (int i = 1; i <= 100; i++) {
+    print(i);
+  }
+}
+
+program 3:
+
+void main() {
+  int x = 100;
+  for (int i = 0; i < 10; i++) {
+    print(x + i);
+  }
+}
+
+program 4:
+
+void main() {
+  for (int i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
+}
+
+program 5:
+
+void main() {
+  for (int i = 1; i <= 50; i++) {
+    if (i % 2 == 1) {
+      print(i);
+    }
+  }
+}
+
+program 6:
+
+void main() {
+  for (int i = 100; i >= 1; i--) {
+    print(i);
+  }
+}
+
+program 7:
+
+void main() {
+  for (int i = 100; i >= 1; i--) {
+    print(i);
+  }
+}
+
+program 8:
+
+void main() {
+  int num = 12;
+  for (int i = 10; i >= 1; i--) {
+    print(num * i);
+  }
+}
+
+program 9:
+
+void main() {
+  int sum = 0;
+  for (int i = 1; i <= 10; i++) {
+    sum = sum + i;
+  }
+  print(sum);
+}
+
+program 10:
+
+void main() {
+  int product = 1;
+  for (int i = 1; i <= 10; i++) {
+    product = product * i;
+  }
+  print(product);
+}
