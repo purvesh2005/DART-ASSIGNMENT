@@ -1,0 +1,134 @@
+program 1:
+void main() {
+  int ramSize = 8;
+
+  if (ramSize == 4) {
+    print("cant run a project");
+  } else {
+    print("can run a project");
+  }
+}
+
+program 2:
+
+void main() {
+  int x = 10;
+  if (x == 1) {
+    print("violet");
+  } else if (x == 2) {
+    print("indigo");
+  } else if (x == 3) {
+    print("blue");
+  } else if (x == 4) {
+    print("green");
+  } else if (x == 5) {
+    print("yellow");
+  } else if (x == 6) {
+    print("orange");
+  } else if (x == 7) {
+    print("red");
+  } else {
+    print("there are only 7 colors in rainbow");
+  }
+}
+
+program 3:
+
+void main() {
+  num x = 45;
+  if (x >= 30 && x <= 50) {
+    print("number is in correct range");
+  } else {
+    print("invaild number");
+  }
+}
+
+program 4:
+
+void main() {
+  int x = 16;
+  if (x >= 16 && x % 2 == 0) {
+    print("$x is correct number");
+  } else {
+    print("$x is incorrect number");
+  }
+}
+
+program 5:
+
+void main() {
+  int x = 19;
+  if (x % 3 == 2) {
+    print("remainder is equal to 2");
+  } else {
+    print("remainder is less than 2");
+  }
+}
+
+program 6:
+
+void main() {
+  num bmi = 26.6;
+  if (bmi < 18.5) {
+    print("underweight");
+  } else if (bmi > 18.5 && bmi <= 24.9) {
+    print("normal");
+  } else if (bmi > 24.9 && bmi <= 29.9) {
+    print("overweight");
+  } else if (bmi > 29.9 && bmi <= 34.9) {
+    print("obese");
+  } else {
+    print("extreme obese");
+  }
+}
+
+program 7:
+
+void main() {
+  int noOfPerson = 8;
+  if (noOfPerson >= 8) {
+    print("you cant enter in lift");
+  } else {
+    print("you can enter in the lift");
+  }
+}
+
+program 8:
+
+void main() {
+  String vehicle = "bike";
+  if (vehicle == 'bike') {
+    print("go to parking no. 02");
+  } else if (vehicle == 'scooter') {
+    print("go to parking no. 01");
+  } else {
+    print(" please park outside");
+  }
+}
+
+program 9:
+
+void main() {
+  int mark = 76;
+  if (mark >= 0 && mark <= 25) {
+    print("Grade D");
+  } else if (mark > 25 && mark <= 50) {
+    print("Grade C");
+  } else if (mark > 50 && mark <= 75) {
+    print("Grade B");
+  } else {
+    print("Grade A");
+  }
+}
+
+program 10:
+
+void main() {
+  double percentage = 65;
+  double cgpa = 9;
+  if (percentage >= 70.0 && cgpa >= 7.0) {
+    print("you are eligible for ");
+  } else
+    print("you are not eligible");
+}
+
