@@ -1,0 +1,119 @@
+program 1:
+
+void main() {
+  int i = 31;
+  while (i <= 55) {
+    print(i);
+    i++;
+  }
+}
+
+program 2:
+
+void main() {
+  int i = 63;
+  while (i <= 123) {
+    if (i % 9 == 0) {
+      print(i);
+    }
+    i++;
+  }
+}
+
+program 3:
+
+void main() {
+  int i = 20;
+  int sum = 0;
+  while (i <= 120) {
+    if (i % 2 == 1) {
+      sum += i;
+    }
+    i++;
+  }
+  print(sum);
+}
+
+program 4:
+
+void main() {
+  int i = 100;
+  while (i <= 120) {
+    print(i * i);
+    i++;
+  }
+}
+
+program 5:
+
+void main() {
+  int i = 1;
+  while (i <= 100) {
+    if (i % 4 == 0 && i % 3 == 0) {
+      print(i);
+    }
+    i++;
+  }
+}
+
+program 6:
+
+void main() {
+  int i = 20;
+  while (i <= 50) {
+    if (i % 4 != 0 && i % 4 == 3) {
+      print(i);
+    }
+    i++;
+  }
+}
+
+program 7:
+
+void main() {
+  int i = 20;
+  while (i <= 60) {
+    if (i % 7 == 0) {
+      print(i * i * i);
+    }
+    i++;
+  }
+}
+
+program 8:
+
+void main() {
+  int i = 1;
+  int sum = 0;
+  while (i <= 10) {
+    sum += i * 12;
+    i++;
+  }
+  print(sum);
+}
+
+program 9:
+
+void main() {
+  int i = 1;
+  int sum = 0;
+  while (i <= 15) {
+    sum += i * i;
+    i++;
+  }
+  print(sum);
+}
+
+program 10:
+
+void main() {
+  int i = 20;
+  while (i <= 70) {
+    if (i % 2 == 1) {
+      print(i * i);
+    } else {
+      print(i * i * i);
+    }
+    i++;
+  }
+}
