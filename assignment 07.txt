@@ -1,0 +1,151 @@
+program 1:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("*# ");
+    }
+    print("");
+  }
+}
+
+program 2:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("INC ");
+    }
+    print("");
+  }
+}
+
+program 3:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("$j ");
+    }
+    print("");
+  }
+}
+
+program 4:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("$i ");
+    }
+    print("");
+  }
+}
+
+program 5:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = x; i > 0; i--) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("$i ");
+    }
+    print("");
+  }
+}
+
+program 6:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("${i + 13} ");
+    }
+    print("");
+  }
+}
+
+program 7:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  num s = 0;
+
+  for (int i = 0; i < x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("${1 + s + i + 2 * j - 2} ");
+    }
+
+    s = s + 5;
+    print("");
+  }
+}
+
+program 8:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  num s = 0;
+
+  for (int i = 0; i < x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("${j + s} ");
+    }
+
+    s = s + 1;
+    print("");
+  }
+}
+
+program 9:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  for (int i = 0; i < x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write(2 * i + j);
+    }
+    print("");
+  }
+}
+
+program 10:
+
+import "dart:io";
+
+void main() {
+  int x = int.parse(stdin.readLineSync()!);
+  num s = 0;
+
+  for (int i = 0; i < x; i++) {
+    for (int j = 1; j <= x; j++) {
+      stdout.write("${j + s} ");
+    }
+
+    s = s + 1;
+    print("");
+  }
+}
