@@ -1,0 +1,200 @@
+program1:
+
+import "dart:io";
+
+void main() {
+  int row = 4; //int.parse(stdin.readLineSync()!);
+  int num = 1;
+  for (int i = 1; i <= row; i++) {
+    int p = num;
+    for (int j = 1; j <= row; j++) {
+      stdout.write("$p ");
+      p++;
+    }
+    num += row;
+    print("");
+  }
+}
+
+program2:
+
+import "dart:io";
+
+void main() {
+  int row = 4; //int.parse(stdin.readLineSync()!);
+  int number = row * row;
+
+  for (int i = 0; i < row; i++) {
+    for (int j = 0; j < row; j++) {
+      stdout.write("$number ");
+      number--;
+    }
+    print("");
+  }
+}
+
+program3:
+
+import "dart:io";
+
+void main() {
+  int row = 3; //int.parse(stdin.readLineSync()!);
+
+  for (int i = 0; i < row; i++) {
+    if (i % 2 == 0) {
+      for (int j = 0; j < row; j++) {
+        stdout.write(1);
+      }
+    } else {
+      for (int j = 0; j < row; j++) {
+        stdout.write(0);
+      }
+    }
+    print("");
+  }
+}
+
+program4:
+
+import "dart:io";
+
+void main() {
+  int row = 4; //int.parse(stdin.readLineSync()!);
+  int num = 0;
+
+  for (int i = num; i < row; i++) {
+    for (int j = 0; j < row; j++) {
+      if (i % 2 == 0) {
+        if (j % 2 == 0) {
+          stdout.write(0);
+        } else {
+          stdout.write(1);
+        }
+      } else {
+        if (j % 2 == 0) {
+          stdout.write(1);
+        } else {
+          stdout.write(0);
+        }
+      }
+    }
+    num++;
+    print("");
+  }
+}
+
+program5:
+
+import "dart:io";
+
+void main() {
+  int row = 4; //int.parse(stdin.readLineSync()!);
+  int num = 1;
+  for (int i = 1; i <= row; i++) {
+    int p = num;
+    for (int j = 1; j <= row; j++) {
+      stdout.write("$p ");
+      p += 2;
+    }
+    num += 2;
+    print("");
+  }
+}
+
+program6:
+
+import "dart:io";
+
+void main() {
+  int row = 3; //int.parse(stdin.readLineSync()!);
+  int num = 2;
+  for (int i = 1; i <= row; i++) {
+    int p = num;
+    for (int j = 1; j <= row; j++) {
+      stdout.write("$p ");
+      p += 2;
+    }
+    num += (row * 2);
+    print("");
+  }
+}
+
+program7:
+
+import "dart:io";
+
+void main() {
+  int row = 3; //int.parse(stdin.readLineSync()!);
+  int num = 1;
+  for (int i = 1; i <= row; i++) {
+    int p = num;
+    for (int j = 1; j <= row; j++) {
+      stdout.write("${p * p} ");
+      p++;
+    }
+    num += row;
+    print("");
+  }
+}
+
+program8:
+
+import "dart:io";
+
+void main() {
+  int row = 3; //int.parse(stdin.readLineSync()!);
+  for (int i = 0; i < row; i++) {
+    int num = i + 1;
+    for (int j = 0; j < row; j++) {
+      stdout.write("$num ");
+      if (j == row - 2) {
+        num += 1;
+      }
+    }
+    print("");
+  }
+}
+
+program9:
+
+import "dart:io";
+
+void main() {
+  int row = 3; //int.parse(stdin.readLineSync()!);
+  for (int i = 1; i <= row; i++) {
+    int p = 1;
+    int q = row;
+    if (i % 2 == 1) {
+      for (int j = 1; j <= row; j++) {
+        stdout.write("$p ");
+        p++;
+      }
+    } else {
+      for (int j = row; j > 0; j--) {
+        stdout.write("$q ");
+        q--;
+      }
+    }
+    print("");
+  }
+}
+
+program10:
+
+import "dart:io";
+
+void main() {
+  int row = 5; //int.parse(stdin.readLineSync()!);
+  int p = 1;
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j <= row; j++) {
+      if (i % 2 == 1) {
+        stdout.write("${p} ");
+      } else {
+        stdout.write("a ");
+      }
+    }
+    p++;
+    print("");
+  }
+}
