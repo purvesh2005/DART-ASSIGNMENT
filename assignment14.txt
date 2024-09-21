@@ -1,0 +1,208 @@
+program1:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("*");
+    }
+    print("");
+  }
+}
+
+program2:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("1");
+    }
+    print("");
+  }
+}
+
+program3:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+  int num = 1;
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("$num/t");
+      num++;
+    }
+    print("");
+  }
+}
+
+program4:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+  int num = row;
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("$num");
+    }
+    num--;
+    print("");
+  }
+}
+
+program5:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= row; i++) {
+    int num = 1;
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("$num");
+      if (k <= i) {
+        num++;
+        if (k == i) {
+          num -= 2;
+        }
+      } else {
+        num--;
+      }
+    }
+    print("");
+  }
+}
+
+program6:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+  int num = row;
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < row - i + 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * i - 1; k++) {
+      stdout.write("$num");
+    }
+    num--;
+    print("");
+  }
+}
+
+program7:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+
+  for (int i = row; i > 0; i -= 2) {
+    for (int j = 1; j < (row - i) ~/ 2; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= i; k++) {
+      stdout.write("*   ");
+    }
+    print("");
+  }
+}
+
+program8:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < i; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= 2 * row - i; k++) {
+      stdout.write("1   ");
+    }
+    print("");
+  }
+}
+
+program9:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+  int num = 1;
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < 2 * i - 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= row - i + 1; k++) {
+      stdout.write("$num  ");
+      num++;
+    }
+    print("");
+  }
+}
+
+program10:
+
+import 'dart:io';
+
+void main() {
+  print("Enter the number of rows : ");
+  int row = int.parse(stdin.readLineSync()!);
+  int num = row;
+
+  for (int i = 1; i <= row; i++) {
+    for (int j = 1; j < 2 * i - 1; j++) {
+      stdout.write(" ");
+    }
+    for (int k = 1; k <= row - i + 1; k++) {
+      stdout.write("$num  ");
+    }
+    num--;
+    print("");
+  }
+}
